@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up Form</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/utils.css">
+	<link rel="stylesheet" href="./css/style.css">
+
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<aside class="side">
+		<div>
+			<div clas="logo">
+				<img src="asset/hxh-logo.svg" width="64" heigth="64" alt="">
+			</div>
+			<div class="side-text">
+				<p class="font-small">Hunter Association</p>
+				<p class="font-large">Hunter Exam</p>
+			</div>
+		</div>
+	</aside>
+	<main>
+		<section class="intro">
+			<p class="font-large">Welcome to the <strong class="font-strong">Hunter Licensure Exam!</strong></p>
+			<p>You are about embark on a journey that will test your <em class="font-em">Perseverance</em> and
+				<em class="font-em">Power</em>
+			</p>
+		</section>
+		<form>
+			<h1>Let's go future <strong class="font-strong">Hunter</strong>!</h1>
+			<fieldset>
+				<div class='input-group'>
+					<label>
+						<span>FIRST NAME:</span> <input type="text" name="firstname" required>
+					</label>
+					<label>
+						<span>LAST NAME:</span> <input type="text" name="lastname" required>
+					</label>
+				</div>
+				<div class='input-group'>
+					<label>
+						<span>EMAIL:</span> <input type="email" name="email" required>
+					</label>
+					<label>
+						<span>PHONE NUMBER:</span> <input type="tel" name="phone-number" maxlength="11" minlength="11" required>
+					</label>
+				</div>
+				<div class='input-group'>
+					<label>
+						<span>PASSWORD:</span> <input type="password" name="password" required>
+					</label>
+					<label>
+						<span>CONFIRM PASSWORD:</span> <input type="password" name="confirm-password" required>
+					</label>
+				</div>
+			</fieldset>
+			<div class="form-buttons">
+				<button class="btn shadow-small" type="submit">Submit</button>
+				<button class="btn shadow-small" type="reset">Clear Form</button>
+			</div>
+			<p>Already Registered? <a href="">Login</a></p>
+		</form>
+	</main>
+</body>
+
+</html>

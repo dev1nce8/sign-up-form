@@ -1,0 +1,30 @@
+/* Font */
+.font-small {
+	font-size: 0.8rem;
+}
+
+.font-large {
+	font-size: 1.6rem
+}
+
+.font-highlighted {
+	color: var(--clr-accent);
+}
+
+.font-strong {
+	color: var(--clr-accent);
+}
+
+.font-em {
+	color: var(--clr-accent);
+}
+
+/* BUTTONS */
+.btn {
+	background-color: var(--clr-accent);
+	border-radius: 2px;
+}
+
+.shadow-small {
+	box-shadow: 2px 2px 3px #333;
+}
